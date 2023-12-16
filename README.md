@@ -1,2 +1,2 @@
 # friendjoin
-Host games like Minecraft yourself without port forwarding
+Host games without port forwarding
