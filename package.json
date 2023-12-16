@@ -1,0 +1,36 @@
+{
+  "name": "friendjoin",
+  "version": "0.1",
+  "description": "Host and join servers on different wifi networks",
+  "main": "start.mjs",
+  "type": "module",
+  "license": "zLib",
+  "private": false,
+  "engines": {
+    "node": ">= 14.0.0",
+    "npm": ">= 6.0.0"
+  },
+  "homepage": "https://github.com/DeflectoMC/friendjoin",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/DeflectoMC/friendjoin"
+  },
+  "bugs": "https://github.com/DeflectoMC/friendjoin/issues",
+  "keywords": [
+    "minecraft",
+    "minecraft-server",
+    "minecraft-client"
+  ],
+  "author": {
+    "name": "Deflecto",
+    "url": "https://github.com/DeflectoMC"
+  },
+  "scripts": {
+    "main": "node start.mjs"
+  },
+  "bin": "./start.mjs",
+  "dependencies": {
+    "node-datachannel": "^0.5.2",
+    "ws": "^8.15.1"
+  }
+}
